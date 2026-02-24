@@ -1,5 +1,28 @@
 # Master Code Figma Transfer
+# mastercodefigmatransfer
 
+## Purpose
+This repository serves as the finalized design **source-of-truth** extracted from Figma.
+
+It represents the completed system structure that will be used to build and maintain the Codex app. No additional exports are planned.
+
+## Scope
+This repository is intentionally limited to:
+- Finalized Figma system artifacts
+- Master catalog references
+- Structural mappings required for implementation
+
+## Separation Strategy
+- This repo = Design truth (static reference)
+- Codex repo = Application implementation (active development)
+
+The design structure remains stable here. All evolution happens inside the Codex application repository.
+
+## Current Contents
+- `Master System Catalog.make`
+
+## Status
+Locked baseline — no further Figma exports expected.
 ## Overview
 This project is designed to streamline the workflow between Figma design files and production-ready code.
 # mastercodefigmatransfer
