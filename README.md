@@ -1,79 +1,64 @@
 # Master Code Figma Transfer
-# mastercodefigmatransfer
+Design source-of-truth extracted from Figma for structured application development.
 
-## Purpose
-This repository serves as the finalized design **source-of-truth** extracted from Figma.
+Purpose
 
-It represents the completed system structure that will be used to build and maintain the Codex app. No additional exports are planned.
+This repository serves as the finalized design system baseline for the Codex application.
 
-## Scope
-This repository is intentionally limited to:
-- Finalized Figma system artifacts
-- Master catalog references
-- Structural mappings required for implementation
+It contains exported system artifacts and structural mappings from Figma, kept separate from application code to preserve a clean and stable reference layer.
 
-## Separation Strategy
-- This repo = Design truth (static reference)
-- Codex repo = Application implementation (active development)
+This repo represents design truth.
+The Codex repository represents implementation.
 
-The design structure remains stable here. All evolution happens inside the Codex application repository.
+Scope
 
-## Current Contents
-- `Master System Catalog.make`
+This repository intentionally includes only:
 
-## Status
-Locked baseline — no further Figma exports expected.
-## Overview
-This project is designed to streamline the workflow between Figma design files and production-ready code.
-# mastercodefigmatransfer
+Finalized Figma system exports
 
-## Purpose
-This repository is the **design source-of-truth** for my app work.
+Master catalog artifacts
 
-It contains the exports and structured artifacts extracted from Figma (as complete as possible), kept separate from the application code so the “truth” stays clean and stable.
+Structural mappings for development
 
-## What belongs here
-- Figma exports / system catalogs
-- Design system references
-- Component naming + mapping notes (if needed)
-- Versioned “master” files used to build/refresh the app in Codex
+Design system references
 
-## What does NOT belong here
-- Application source code
-- Build artifacts
-- Environment secrets / API keys
-- Anything that should live in the Codex app repo
+It does not include:
 
-## How it’s used
-The Codex app repo pulls from this repository as the reference point for design structure and system consistency.
+Application source code
 
-## Current contents
-- `Master System Catalog.make` — exported catalog artifact (from Figma extraction)
+Build artifacts
 
-## Status
-Active — updated whenever the Figma source-of-truth changes.
-## Purpose
-To reduce friction between design and development by creating a structured, repeatable transfer process.
+Environment configuration
 
-## Features
-- Figma structure mapping
-- Component breakdown logic
-- Export-ready formatting
-- Clean handoff system
+Secrets or API keys
 
-## Tech Stack
-- Figma
-- [Add frameworks here]
-- [Add languages here]
+Repository Structure
+archive/   → Exported master artifacts
+system/    → System-level structural references
+tokens/    → Design token references
+components/→ Component mappings (if added)
+docs/      → Architecture and supporting documentation
+Current Baseline Artifact
 
-## Status
-🚧 In development
+Master System Catalog.make
+Primary exported catalog from Figma.
 
-## Roadmap
-- [ ] Define export structure
-- [ ] Automate component parsing
-- [ ] Standardize naming conventions
-- [ ] Implement transfer documentation
+Workflow Model
 
-## Author
+Design evolves in Figma.
+
+Finalized system artifacts are exported here.
+
+Codex application repo consumes this structure.
+
+Implementation evolves separately from design truth.
+
+This separation ensures stability, clarity, and clean iteration cycles.
+
+Status
+
+🚧 Active — updated only when Figma source-of-truth changes.
+
+Author
+
 Vic
